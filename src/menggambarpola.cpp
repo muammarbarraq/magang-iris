@@ -2,19 +2,27 @@
 
 using namespace std;
 
-int n, m; //deklarasi
+int n, m; 
 int main (){
     cin >> n >> m;
 
-    for(int i = 0; i < n ; i++){
-        for(int j = 0 ; j < m ; j++){
-            if(j % 2 == 1){
-                cout << "*" ;
-            }
-            else {
-                cout << "#";
+    if (1 <= n <= 100){
+        if (1 <= m <= 100){
+            for(int i = 1; i <= n ; i++){
+                for(int j = 1 ; j <= m ; j++){
+                     if(i % 2 == 0 && j % 2 == 0){
+                        cout << "#" ;
+                    }
+                    else if(i % 2 == 1 && j % 2 ==1 ) {
+                        cout << "*";
+                    }
+                    else if ( i % 2 == 0 || j % 2== 0){
+                        cout << "$";
+                    }
+                }
+                cout << endl;
             }
         }
-        cout << endl;
     }
+    return 0;
 }
