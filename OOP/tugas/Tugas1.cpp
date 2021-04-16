@@ -3,9 +3,9 @@
 using namespace std;
 
 class Bentuk{
-    public  :   // lebih baik di private atau di protected
-    int panjang ,lebar ;    // deklarasi panjang dan lebar secara public
-    public :
+    public :   // lebih baik di private atau di protected
+    int panjang ,lebar ;    // deklarasi panjang dan lebar 
+ 
     void data (int a, int b){   
         panjang = a; //nilai a
         lebar = b;  // nilai b
