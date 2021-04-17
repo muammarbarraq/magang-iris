@@ -3,7 +3,7 @@
 using namespace std;
 
 class Bentuk{
-    public :   // lebih baik di private atau di protected
+    public :   
     int panjang ,lebar ;    // deklarasi panjang dan lebar 
  
     void data (int a, int b){   
@@ -13,14 +13,14 @@ class Bentuk{
 
 };
 
-class persegipanjang : public Bentuk {  // sub class persegi panjang
+class persegipanjang : public Bentuk {  
     public :
     int area (){
         return (panjang*lebar); //luas persegi panjang (p*l)
     }
 };
 
-class segitiga : public Bentuk{ // sub class segitiga 
+class segitiga : public Bentuk{  
     public :
     int area (){
         return (panjang*lebar/2); // luas segitiga (p*l/2)
