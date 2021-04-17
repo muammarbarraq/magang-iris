@@ -3,16 +3,19 @@
 using namespace std;
 
 class angka {
+    private :
+    int angka1;
+    int angka2;
     public :
     angka (int angka1,int angka2){
-        cout << angka1 + angka2 << endl;
+        cout << angka1 * angka2 << endl;
     }
 };
 
 int main (){
-   int angka1,angka2;
-   cin >> angka1 >> angka2;
+   int x,y;
+   cin >> x >> y ;
 
-    angka bilangan(angka1,angka2);
+    angka bilangan(x,y);
     return 0;
 }

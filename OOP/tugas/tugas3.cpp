@@ -27,11 +27,15 @@ class dolphin : public animal {
 };
 
 int main (){
+    int x,p;
+    string y,z;
     zebra Zebra;
     dolphin lumbalumba;
+    cin >> x >> y;
+    cin >> p >> z;
 
-    Zebra.info(12,"ari");
-    lumbalumba.info(15,"akil");
+    Zebra.info(x,y);
+    lumbalumba.info(p,z);
     Zebra.value();
     lumbalumba.value();
 

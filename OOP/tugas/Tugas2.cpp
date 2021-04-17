@@ -5,14 +5,14 @@ using namespace std;
 class mother {
     public :
     void display (){
-            cout << "ibu" << "\n";  //output class mother = "ibu"
+            cout << "ibu" << "\n";  
     }
 };
 
 class daughter {
     public :
     void display (){
-        cout << "anak perempuan" ; //output class daughter = "anak perempuan"
+        cout << "anak perempuan" ; 
     }
 };
 
